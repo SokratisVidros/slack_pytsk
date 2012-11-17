@@ -3,6 +3,8 @@ slack_pytsk
 
 A Sleuthkit tool to check the slack space at the end of each file in a filesystem.
 
+The smaller allocation unit in a file system is a block, and blocks normally contain multiple disk sectors. As a result, when a user is creating a file with a size that is not a perfect multiple of a block size, some free space remains in the last block, called block slack space. Some operating systems fill this space with 0s (null bytes) but others apparently let the other disk sectors unchanged, therefore possibly containing previous data.
+
 The project is based on pytsk.
 
 ##How to use
