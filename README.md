@@ -34,4 +34,4 @@ To get help on how to use the script type
 Sleuthkit and Autopsy Browser are open source digital investigation tools (a.k.a. digital forensic tools) that run on Windows, Linux, OS X, and other Unix systems. They can be used to analyze disk images and perform in-depth analysis of file systems (such as NTFS, FAT, HFS+, Ext3, and UFS) and several volume system types. For more information: http://www.sleuthkit.org
 
 ###Pytsk
-A python binding for the sleuthkit. For more information: http://code.google.com/p/pytsk/==============================
+A python binding for the sleuthkit. For more information: http://code.google.com/p/pytsk/
